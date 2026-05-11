@@ -2085,7 +2085,7 @@ text.active {
 }
 
 .feature-subtitle {
-    font-size: 12px;
+    font-size: 15px;
     color: #a09890;
     letter-spacing: .1em;
     text-transform: uppercase;
@@ -2094,7 +2094,6 @@ text.active {
     border-top: 1px solid rgba(255,255,255,.1);
 }
 
-/* ── Essay intro (full-width pull) ── */
 .feature-intro {
     padding: 36px 64px 28px;
     background: var(--block-intro-bg);
@@ -2102,7 +2101,7 @@ text.active {
 }
 
 .feature-intro p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 2;
     color: #285366;
     max-width: 900px;
@@ -2120,7 +2119,6 @@ text.active {
     font-family: var(--font-mono);
 }
 
-/* ── Section layout (essay section + 2 images) ── */
 .feature-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2188,7 +2186,7 @@ text.active {
 }
 
 .section-text p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.95;
     color: #5e503f;
     font-family: var(--font-mono);
@@ -2204,14 +2202,13 @@ text.active {
     border-left: 3px solid var(--accent);
     padding: 10px 16px;
     background: rgba(212, 95, 60, .07);
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     line-height: 1.7;
     color: #3a3632;
     font-family: var(--font-mono);
 }
 
-/* 2-image panel beside text */
 .section-images {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -2222,12 +2219,13 @@ text.active {
 .section-images .img-slot {
     overflow: hidden;
     position: relative;
+       height: 600px;
     background: var(--block-image-bg);
 }
 
 .section-images .img-slot img {
     width: 100%;
-    height: 100%;
+    height: 600px;
     object-fit: cover;
     display: block;
     opacity: 65%;
@@ -2275,7 +2273,7 @@ text.active {
 }
 
 .closing-text p {
-    font-size: 12.5px;
+    font-size: 13px;
     line-height: 2;
     color: #a09890;
     font-family: var(--font-mono);
@@ -2299,21 +2297,6 @@ text.active {
     object-fit: cover;
     display: block;
     opacity: 70%;
-}
-
-/* ── Footer ── */
-.feature-footer {
-    background: var(--block-title-bg);
-    color: #5e503f;
-    padding: 18px 64px;
-    font-size: 10px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    font-family: var(--font-mono);
-    border-top: 3px solid var(--accent);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .feature-footer a {
